@@ -1,13 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chat</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Safety Quiz</title>
 </head>
 <body>
-    <h1>Chat</h1>
-    <x-chat />
-    <script type="module" src="index.js"></script>
+  <h1>Safety Quiz</h1>
+  <script type="module">
+    import { SafetyQuiz } from './SafetyQuiz.js';
+    const quiz = new SafetyQuiz();
+    console.log(quiz.handleInput()); // Start the quiz
+  </script>
 </body>
 </html>
