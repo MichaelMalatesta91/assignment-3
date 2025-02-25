@@ -1,3 +1,3 @@
-# Chatter
+# assignment 3
 
-simple chat bot in a custom element
+using chatter repo template to make safety quiz and publish to pages using index.html
